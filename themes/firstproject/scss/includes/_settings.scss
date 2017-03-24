@@ -1,0 +1,107 @@
+/*
+Theme Name: Zolie Zi Classic
+Theme URI: http://smart-site.pro
+Author: http://smart-site.pro
+Author URI: http://smart-site.pro
+Description: Zolie Zi Classic
+Version: 1.0
+*/
+
+//@import "fonts";
+
+// Define variables
+
+	//Main setup
+		// Width
+			$widthMax:				1000px;
+			$widthWork:				970px;
+		// font-family
+			$open:		OpenSans, Arial, Times;
+			$showcard:	Showcard, Arial, Times;
+			$pea:		Pea, Arial, Times;
+			$rockwell:	Rockwell, Arial, Times;
+			$helvetica:	Helvetica, Arial, Times;
+		// font-size
+			$fontSizeSmall:			21px;
+			$fontSizeMid:			26px;
+			$fontSizeLarge:			32px;
+			$fontSizeText:			18px;
+		// Colors
+			$white: 		#FFFFFF;
+			$whiteDark:		#FDF0F7;
+			$black:			#000000;
+			$blackLight:	#231F20;
+			$grey:			#6B6C6F;
+			$purple:		#8F3990;
+			$purpleLight:	#923779;
+			$pink:			#F079AE;
+			$pinkLight:		#F8C4DB;
+			$blue:			#3DC6F3;
+
+// reset default style
+body, header, main, footer, nav, aside, div, p, h1, h2, h3, figure, figcaption, a, ul, li
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: $fontSizeText;
+	font-family: $open;
+	color: $black;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+
+ul
+{
+	li
+	{
+		display: inline-block;
+
+		list-style: none;	
+	}
+	
+}
+
+a
+{
+	text-decoration: none;
+
+	&:hover
+	{
+		text-decoration: none;
+	}
+
+	&:link
+	{
+		text-decoration: none;
+	}
+}
+
+a, button
+{
+	&:focus
+	{
+		outline: none;
+	}
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+
+// Reset bootstrap styles
+.margin_zero
+{
+	margin: 0;
+}
+
+.padding_zero
+{
+	padding: 0;
+}

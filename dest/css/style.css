@@ -1,0 +1,277 @@
+/*
+Theme Name: Zolie Zi Classic
+Theme URI: http://smart-site.pro
+Author: http://smart-site.pro
+Author URI: http://smart-site.pro
+Description: Zolie Zi Classic
+Version: 1.0
+*/
+body, header, main, footer, nav, aside, div, p, h1, h2, h3, figure, figcaption, a, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  font-family: OpenSans, Arial, Times;
+  color: #000000; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul li {
+  display: inline-block;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+  a:link {
+    text-decoration: none; }
+
+a:focus, button:focus {
+  outline: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.margin_zero {
+  margin: 0; }
+
+.padding_zero {
+  padding: 0; }
+
+body {
+  background-color: #f0f0f0; }
+
+.headerNav ul a {
+  display: block;
+  width: 90px;
+  height: 16;
+  float: left;
+  list-style-type: none;
+  margin: 28px 20px 20px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  text-decoration: none;
+  text-align: left; }
+  .headerNav ul a li {
+    color: #000000; }
+
+.loginIcon {
+  vertical-align: middle;
+  margin: 20px;
+  float: right; }
+
+#myCarousel {
+  height: 456px;
+  background-color: rgba(15, 14, 14, 0.4); }
+
+.container-fluid {
+  max-width: 1000px;
+  width: 100%;
+  background-color: white;
+  padding: 0 0; }
+
+.contentDiv1 {
+  margin: 20px 0 0 0; }
+
+.categoryImages {
+  margin: 20px 0; }
+
+.moreNewsblocks {
+  margin-top: 30px;
+  padding: 0 25px; }
+
+.paragraf {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #000000; }
+
+.layer {
+  font-family: SFUIDisplay;
+  font-size: 90px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -2.2px;
+  text-align: center;
+  color: #000000; }
+
+.button-news {
+  height: 26px;
+  border: 1px solid #eaeaea;
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  margin: 43px 0 0 0px; }
+
+.contentDiv3 {
+  background-color: #f8f8f8; }
+
+.catalogMainHead {
+  margin: 25px auto;
+  color: blue; }
+
+.catalogElements {
+  min-height: 230px;
+  min-width: 300px;
+  padding: 10px;
+  border: 1px solid  #f8f8f8;
+  margin: 18px 0; }
+  .catalogElements:hover {
+    background-color: #315efb; }
+    .catalogElements:hover .catalogHeaders {
+      color: white; }
+
+.catalogButtons {
+  display: inline-block;
+  width: 140px;
+  height: 35px;
+  padding: 10px;
+  margin-top: 15px;
+  border: solid 2px  #f8f8f8;
+  text-decoration: none;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #f8f8f8; }
+  .catalogButtons:hover {
+    color: white; }
+
+.catParagrafs {
+  display: inline-block;
+  margin: 50px 50px 30px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: #f8f8f8; }
+
+.block {
+  clear: both; }
+
+.imgCatalog {
+  display: block;
+  float: right;
+  margin-top: 40px; }
+
+.catalogHeaders {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #000000;
+  margin: 10px 0 23px 0; }
+
+.catalogIcons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px; }
+  .catalogIcons p {
+    margin: 10px 0 10px 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    color: #333333; }
+
+.secondNewsParagrafs {
+  opacity: 0.6;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #000000; }
+
+.footerCont {
+  height: 490px;
+  background-color: black; }
+  .footerCont .footerContainer {
+    margin: auto;
+    background-color: gray; }
+
+.footer, .containFooter {
+  background-color: black; }
+
+.footItems {
+  padding-left: 60px; }
+  .footItems ul {
+    padding: 0; }
+    .footItems ul li {
+      list-style-type: none;
+      height: 20px;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: #ffffff; }
+
+hr {
+  size: 10px;
+  color: #0676e6;
+  margin: 20px; }
+
+.lastDiv {
+  padding: 25px; }
+  .lastDiv p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff; }
