@@ -61,11 +61,8 @@ body {
 .blockHiddenDate{
 	visibility: collapse;
 	position: absolute;
-
-
-
-
 }
+
 
 .blackoutPictureLink:hover{
 			p{
@@ -88,17 +85,14 @@ body {
 				top: 0; left: 0; bottom: 0; right: 0;
 					
 				color: #ffffff;
-				font-size: 1.5vw;
-				
+				font-size: 1.5vw;		
    			}
 			
 }
 
-.blo @extend .blackoutPictureLink:hover{
-	font-size: 0.1vw;
-}
-
-
+// .blo:hover @extend .blackoutPictureLink{
+// 	font-size: 0.1vw;
+// }
 
 
 .container-fluid {
@@ -110,9 +104,36 @@ body {
 }
 
 .contentDiv1{
-	margin: 20px 0 0 0;
+	margin-top: 20px;
 }
 
+.newsFirstDiv{
+	border: solid 1px #e5e5e6;
+	padding: 0 15px;
+	margin-top: 20px;
+
+
+	h4{
+		margin: 20px 15px;
+
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 600;
+		color: #262626;
+	}
+	p{
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 600;
+		
+		color: #262626;
+		margin: 10px 0;
+	}
+	.newsMargin{
+		display: inline-block;
+		margin-top: 50px;
+	}
+}
 
 .blueBorderBlock{
 	border: solid 10px #315efb;
@@ -124,10 +145,6 @@ body {
 	margin-bottom:30px;
 }
 
-.moreNewsblocks {
-	margin-top: 30px;
-	padding: 0 25px;
-}
 
 .paragraf {
 
@@ -149,24 +166,19 @@ body {
 	color: #000000;
 }
 
-.button-news{
+.button-news1{
 
-	height: 26px;
-    border: 1px solid #eaeaea; 
-    display: inline-block;
-    
+	padding: 10px 20px;
+	font-family: Roboto;
+	font-size: 9px;
+	font-weight: 500;
+	letter-spacing:0.5px;
+	color: #444444;
+	}
 
-    text-decoration: none; 
-    color: #000;
-    font-family: Roboto;
-  	font-size: 9px;
-  	font-weight: 500;
-  	text-align: center;
-  	color: #444444;
-  	
-  	margin: 43px 0 0 0px;
-  	padding: 5px 15px; 
-}
+.button-news2{}
+
+
 
 
 

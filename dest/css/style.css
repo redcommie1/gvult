@@ -106,30 +106,46 @@ a:focus, button:focus {
   text-align: center;
   font-size: 12px;
   font-weight: 500;
-  max-width: 160px;
+  max-width: 158px;
   letter-spacing: 1px;
   text-align: center;
   color: #444444;
-  border: solid 2px #eaeaea;
-  padding: 16px 53px;
-  position: relative; }
-  .btn-standart-border:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 3px;
-    right: 3px;
-    bottom: 3px;
-    left: 0;
-    border: 1px #eaeaea solid;
-    z-index: 10; }
+  border: solid 1px #eaeaea;
+  padding: 16px 53px; }
   .btn-standart-border:focus {
-    border: solid 1px #649dff; }
+    border: solid 1px #649dff;
+    outline: solid 1px #eaeaea; }
   .btn-standart-border:hover {
-    background-color: #eeeeee; }
+    background-color: #eeeeee;
+    border: none; }
   .btn-standart-border:active {
-    background-color: #d2d2d2; }
+    background-color: #d2d2d2;
+    border: none;
+    outline: none; }
+
+.btn-small-white {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #ffffff;
+  padding: 15px 36px;
+  width: 55px;
+  height: 14px;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #444444; }
+  .btn-small-white:focus {
+    outline: solid 1px #649dff; }
+  .btn-small-white:hover {
+    background-color: #eeeeee; }
+  .btn-small-white:active {
+    background-color: #d2d2d2;
+    border: none;
+    outline: none; }
 
 body {
   background-color: #f0f0f0; }
@@ -191,10 +207,7 @@ body {
   bottom: 0;
   right: 0;
   color: #ffffff;
-  font-size: 1.3vw; }
-
-.blo {
-  font-size: 0.1vw; }
+  font-size: 1.5vw; }
 
 .container-fluid {
   max-width: 1024px;
@@ -203,7 +216,27 @@ body {
   padding: 0 0; }
 
 .contentDiv1 {
-  margin: 20px 0 0 0; }
+  margin-top: 20px; }
+
+.newsFirstDiv {
+  border: solid 1px #e5e5e6;
+  padding: 0 15px;
+  margin-top: 20px; }
+  .newsFirstDiv h4 {
+    margin: 20px 15px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #262626; }
+  .newsFirstDiv p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+    margin: 10px 0; }
+  .newsFirstDiv .newsMargin {
+    display: inline-block;
+    margin-top: 50px; }
 
 .blueBorderBlock {
   border: solid 10px #315efb;
@@ -212,10 +245,6 @@ body {
 .blockMargin {
   margin-top: 30px;
   margin-bottom: 30px; }
-
-.moreNewsblocks {
-  margin-top: 30px;
-  padding: 0 25px; }
 
 .paragraf {
   font-family: Roboto;
@@ -231,19 +260,13 @@ body {
   text-align: center;
   color: #000000; }
 
-.button-news {
-  height: 26px;
-  border: 1px solid #eaeaea;
-  display: inline-block;
-  text-decoration: none;
-  color: #000;
+.button-news1 {
+  padding: 10px 20px;
   font-family: Roboto;
   font-size: 9px;
   font-weight: 500;
-  text-align: center;
-  color: #444444;
-  margin: 43px 0 0 0px;
-  padding: 5px 15px; }
+  letter-spacing: 0.5px;
+  color: #444444; }
 
 .contentDiv3 {
   background-color: #f8f8f8; }
